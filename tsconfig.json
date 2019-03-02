@@ -17,6 +17,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "design-system-angular": [
+        "dist/design-system-angular"
+      ],
+      "design-system-angular/*": [
+        "dist/design-system-angular/*"
+      ]
+    }
   }
 }
