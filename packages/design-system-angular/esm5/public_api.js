@@ -1,0 +1,11 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ */
+/*
+ * Public API Surface of design-system-angular
+ */
+export { DesignSystemAngularService } from './lib/design-system-angular.service';
+export { DesignSystemAngularComponent } from './lib/design-system-angular.component';
+export { DesignSystemAngularModule } from './lib/design-system-angular.module';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljX2FwaS5qcyIsInNvdXJjZVJvb3QiOiJuZzovL2Rlc2lnbi1zeXN0ZW0tYW5ndWxhci8iLCJzb3VyY2VzIjpbInB1YmxpY19hcGkudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7OztBQUlBLDJDQUFjLHFDQUFxQyxDQUFDO0FBQ3BELDZDQUFjLHVDQUF1QyxDQUFDO0FBQ3RELDBDQUFjLG9DQUFvQyxDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLypcbiAqIFB1YmxpYyBBUEkgU3VyZmFjZSBvZiBkZXNpZ24tc3lzdGVtLWFuZ3VsYXJcbiAqL1xuXG5leHBvcnQgKiBmcm9tICcuL2xpYi9kZXNpZ24tc3lzdGVtLWFuZ3VsYXIuc2VydmljZSc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi9kZXNpZ24tc3lzdGVtLWFuZ3VsYXIuY29tcG9uZW50JztcbmV4cG9ydCAqIGZyb20gJy4vbGliL2Rlc2lnbi1zeXN0ZW0tYW5ndWxhci5tb2R1bGUnO1xuIl19

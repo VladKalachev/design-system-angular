@@ -1,0 +1,21 @@
+{
+  "name": "design-system-angular",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^7.2.0",
+    "@angular/core": "^7.2.0"
+  },
+  "main": "bundles/design-system-angular.umd.js",
+  "module": "fesm5/design-system-angular.js",
+  "es2015": "fesm2015/design-system-angular.js",
+  "esm5": "esm5/design-system-angular.js",
+  "esm2015": "esm2015/design-system-angular.js",
+  "fesm5": "fesm5/design-system-angular.js",
+  "fesm2015": "fesm2015/design-system-angular.js",
+  "typings": "design-system-angular.d.ts",
+  "metadata": "design-system-angular.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
