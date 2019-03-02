@@ -92,17 +92,28 @@ var FormComponent = /** @class */ (function () {
  * @fileoverview added by tsickle
  * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
-var DesignSystemAngularModule = /** @class */ (function () {
-    function DesignSystemAngularModule() {
+var DesignSystemAngular = /** @class */ (function () {
+    function DesignSystemAngular() {
     }
-    DesignSystemAngularModule.decorators = [
+    /**
+     * @return {?}
+     */
+    DesignSystemAngular.forRoot = /**
+     * @return {?}
+     */
+    function () {
+        return {
+            ngModule: DesignSystemAngular
+        };
+    };
+    DesignSystemAngular.decorators = [
         { type: NgModule, args: [{
                     declarations: [DesignSystemAngularComponent, RowDirective, FormComponent],
                     imports: [],
                     exports: [DesignSystemAngularComponent, FormComponent, RowDirective]
                 },] }
     ];
-    return DesignSystemAngularModule;
+    return DesignSystemAngular;
 }());
 
 /**
@@ -115,6 +126,6 @@ var DesignSystemAngularModule = /** @class */ (function () {
  * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 
-export { DesignSystemAngularService, DesignSystemAngularComponent, DesignSystemAngularModule, FormComponent as ɵb, RowDirective as ɵa };
+export { DesignSystemAngularService, DesignSystemAngularComponent, DesignSystemAngular, FormComponent as ɵb, RowDirective as ɵa };
 
 //# sourceMappingURL=design-system-angular.js.map

@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, ModuleWithProviders } from '@angular/core';
 import { DesignSystemAngularComponent } from './design-system-angular.component';
 import { RowDirective } from './row.directive';
 import { FormComponent } from './form/form.component';
@@ -10,4 +10,11 @@ import { FormComponent } from './form/form.component';
   ],
   exports: [DesignSystemAngularComponent, FormComponent, RowDirective]
 })
-export class DesignSystemAngularModule { }
+export class DesignSystemAngular {
+
+  static forRoot(): ModuleWithProviders {
+    return {
+      ngModule: DesignSystemAngular
+    }
+  }
+ }

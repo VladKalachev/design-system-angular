@@ -96,17 +96,28 @@
      * @fileoverview added by tsickle
      * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
      */
-    var DesignSystemAngularModule = /** @class */ (function () {
-        function DesignSystemAngularModule() {
+    var DesignSystemAngular = /** @class */ (function () {
+        function DesignSystemAngular() {
         }
-        DesignSystemAngularModule.decorators = [
+        /**
+         * @return {?}
+         */
+        DesignSystemAngular.forRoot = /**
+         * @return {?}
+         */
+            function () {
+                return {
+                    ngModule: DesignSystemAngular
+                };
+            };
+        DesignSystemAngular.decorators = [
             { type: i0.NgModule, args: [{
                         declarations: [DesignSystemAngularComponent, RowDirective, FormComponent],
                         imports: [],
                         exports: [DesignSystemAngularComponent, FormComponent, RowDirective]
                     },] }
         ];
-        return DesignSystemAngularModule;
+        return DesignSystemAngular;
     }());
 
     /**
@@ -121,7 +132,7 @@
 
     exports.DesignSystemAngularService = DesignSystemAngularService;
     exports.DesignSystemAngularComponent = DesignSystemAngularComponent;
-    exports.DesignSystemAngularModule = DesignSystemAngularModule;
+    exports.DesignSystemAngular = DesignSystemAngular;
     exports.ɵb = FormComponent;
     exports.ɵa = RowDirective;
 

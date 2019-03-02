@@ -82,9 +82,17 @@ FormComponent.ctorParameters = () => [];
  * @fileoverview added by tsickle
  * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
-class DesignSystemAngularModule {
+class DesignSystemAngular {
+    /**
+     * @return {?}
+     */
+    static forRoot() {
+        return {
+            ngModule: DesignSystemAngular
+        };
+    }
 }
-DesignSystemAngularModule.decorators = [
+DesignSystemAngular.decorators = [
     { type: NgModule, args: [{
                 declarations: [DesignSystemAngularComponent, RowDirective, FormComponent],
                 imports: [],
@@ -102,6 +110,6 @@ DesignSystemAngularModule.decorators = [
  * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 
-export { DesignSystemAngularService, DesignSystemAngularComponent, DesignSystemAngularModule, FormComponent as ɵb, RowDirective as ɵa };
+export { DesignSystemAngularService, DesignSystemAngularComponent, DesignSystemAngular, FormComponent as ɵb, RowDirective as ɵa };
 
 //# sourceMappingURL=design-system-angular.js.map
